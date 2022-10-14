@@ -180,3 +180,5 @@ _3.7 Pseudo-distributed Operation_
 
 
 ## :shipit: GOOGLE SLIDE: :shipit:
+
+https://docs.google.com/presentation/d/1nDsS7R0ra9kKsOxgRX4dbH4qmpQtcmW8g86XyRQK894/edit?usp=sharing
