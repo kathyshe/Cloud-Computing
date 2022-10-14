@@ -1,7 +1,26 @@
-## DESIGN APPROACH - RANDOM SAMPLING TO ESTIMATE PI: :shipit:
-/MapReduce/Pi/five.JPG
+## :shipit: DESIGN APPROACH - RANDOM SAMPLING TO ESTIMATE PI: :shipit:
+<img src="https://github.com/kathyshe/Cloud-Computing/blob/f88a550ff7a4a72354622d8cf1124379274b38f5/MapReduce/Pi/one.JPG" width=50% height=50%>
+<img src="https://github.com/kathyshe/Cloud-Computing/blob/f88a550ff7a4a72354622d8cf1124379274b38f5/MapReduce/Pi/two.JPG" width=50% height=50%>
 
-## IMPLEMENTATION STEPS: :shipit:
+
+
+**Parallel Computing**
+
+<img src="https://github.com/kathyshe/Cloud-Computing/blob/f88a550ff7a4a72354622d8cf1124379274b38f5/MapReduce/Pi/three.JPG" width=30% height=30%>
+
+
+
+**map() function**
+
+<img src="https://github.com/kathyshe/Cloud-Computing/blob/f88a550ff7a4a72354622d8cf1124379274b38f5/MapReduce/Pi/four.JPG" width=30% height=30%>
+
+
+
+**reduce() function**
+
+<img src="https://github.com/kathyshe/Cloud-Computing/blob/f88a550ff7a4a72354622d8cf1124379274b38f5/MapReduce/Pi/five.JPG" width=30% height=30%>
+
+## :shipit: IMPLEMENTATION STEPS: :shipit:
 
 **Step 1: Generate an input file to the Pi MapReduce program**
 	
@@ -21,7 +40,9 @@
 
 **Step 4: Calculate Pi in the driver program based on the numbers of inside darts and outside darts.**
 
-## IMPLEMENTATION DETAILS: :shipit:
+
+
+## :shipit: IMPLEMENTATION DETAILS: :shipit:
 
 **1. Create a Ubuntu Virtual Machine on GCP**
 
