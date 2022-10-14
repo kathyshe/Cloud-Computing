@@ -1,5 +1,5 @@
 ## DESIGN APPROACH - RANDOM SAMPLING TO ESTIMATE PI: :shipit:
-
+/MapReduce/Pi/five.JPG
 
 ## IMPLEMENTATION STEPS: :shipit:
 
