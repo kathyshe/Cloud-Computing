@@ -167,9 +167,9 @@ _3.7 Pseudo-distributed Operation_
 
 **10. Execute program and view output file**
 
-	•	$ bin/hadoop jar wc.jar PiCalculation /user/kshe/picalculation/input /user/lchen/picalculation/output
+	•	$ bin/hadoop jar wc.jar PiCalculation /user/kshe/picalculation/input /user/kshe/picalculation/output
 	•	//Error 1: input file path does not exist: try executing the following command instead:
-		o	$ bin/hadoop jar wc.jar PiCalculation picalculation/input /user/lchen/picalculation/output
+		o	$ bin/hadoop jar wc.jar PiCalculation picalculation/input /user/kshe/picalculation/output
 	•	$ bin/hdfs dfs -ls /user/kshe/picalculation/output
 	•	$ bin/hdfs dfs -cat /user/kshe/picalculation/output/part-r-00000 //check output file
 
