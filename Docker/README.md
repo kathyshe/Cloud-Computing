@@ -15,6 +15,8 @@ Write a web application to find the weather of a given city.
 
 4. Networking: Make two containers talk to each other.
 
+
+
 **1.	Build image from city-to-zip python file, then run a container from this image.**
 
         •	$ docker build -t city-to-zip .
