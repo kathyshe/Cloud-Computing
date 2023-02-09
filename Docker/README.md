@@ -8,7 +8,7 @@
 
 <img width="1382" alt="image 1" src="https://user-images.githubusercontent.com/113223572/217951924-48eec8a1-f036-48bb-b719-fcd508c8985e.png">
 
-  •	$ docker run --name city-zip-container -p 8000:8000 city-to-zip
+          •	$ docker run --name city-zip-container -p 8000:8000 city-to-zip
 
 <img width="503" alt="image 1 to container" src="https://user-images.githubusercontent.com/113223572/217951943-79ae4a08-6ff4-448d-a597-ce217b3d38c1.png">
 
