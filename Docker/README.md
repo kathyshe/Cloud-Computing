@@ -1,5 +1,21 @@
 ## :shipit: CITY-ZIP-WEATHER MICROSERVICES: :shipit:
 
+**Write a web application to find the weather of a given city. **
+
+![hw1_topservices](https://user-images.githubusercontent.com/113223572/217953821-5ed59031-ffa9-423f-ba54-f41a26ec31b6.png)
+
+
+    1. Design the service using two microservices: 
+    
+    ![hw1_microservices-1](https://user-images.githubusercontent.com/113223572/217953862-ae37c49d-9838-4b5a-9d9d-294c977862b9.png)
+
+
+    2. Implementation: Write two server programs in python and test them using either browser client or curl client.
+
+    3. Containerization: Create Dockerfiles and run two containers independently.
+
+    4. Networking: Make two containers talk to each other.
+
 **1.	Build image from city-to-zip python file, then run a container from this image.**
 
         •	$ docker build -t city-to-zip .
@@ -14,6 +30,7 @@
 
 <img width="1382" alt="Container1" src="https://user-images.githubusercontent.com/113223572/217951848-dca63677-9032-453a-86e5-ca605611beb9.png">
 
+
 **2.	Build image from zip-to-weather python file, then run a container from this image.**
 
         •	$ docker build -t zip-to-weather .
@@ -26,6 +43,7 @@
 
 <img width="1382" alt="截屏2023-02-09 13 12 05" src="https://user-images.githubusercontent.com/113223572/217952062-32d059cc-40ad-4960-bed6-29a4ebd8b213.png">
 
+
 **3.  Create network and add containers to network.**
 
         •	$ docker network create city-weather-network
@@ -36,6 +54,7 @@
 <img width="498" alt="截屏2023-02-09 13 13 57" src="https://user-images.githubusercontent.com/113223572/217952163-502fea00-a908-466e-a756-6eecdd805e31.png">
 
 <img width="835" alt="截屏2023-02-09 13 15 36" src="https://user-images.githubusercontent.com/113223572/217952179-9bae95bc-687d-49fc-a222-8b2b140103d3.png">
+
 
 **4.  Check with browser and curl.**
 
