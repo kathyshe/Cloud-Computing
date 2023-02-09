@@ -2,7 +2,7 @@
 
 **1.	Build image from city-to-zip python file, then run a container from this image.**
 
-  •	$ docker build -t city-to-zip .
+        •	$ docker build -t city-to-zip .
 
 <img width="503" alt="build image 1" src="https://user-images.githubusercontent.com/113223572/217951707-f808ee0f-9332-49ff-98c9-204cbe28d377.png">
 
